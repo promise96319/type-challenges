@@ -37,6 +37,7 @@ VueBasicProps({
   },
   computed: {
     fullname() {
+      this.
       return `${this.firstname} ${this.lastname}`
     },
   },

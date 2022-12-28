@@ -8,7 +8,6 @@ const store = defineStore({
   }),
   getters: {
     stringifiedNum() {
-      // @ts-expect-error
       this.num += 1
 
       return this.num.toString()
